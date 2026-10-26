@@ -60,7 +60,7 @@ echo      先读 AGENTS.md，再读 profile/ 全部 + memory/ 最近一期，然
 echo.
 echo  [2] Kimi / 豆包 / DeepSeek（读不了文件）
 echo      把 START-HERE.md 的 raw 链接发给他：
-echo      https://raw.githubusercontent.com/你的用户名/ai-profile/main/START-HERE.md
+echo      https://raw.githubusercontent.com/everyday91199/ai-profile/main/START-HERE.md
 echo      读不了就走 [3] 复制粘贴保底。
 echo.
 echo  [3] 复制粘贴保底（任何 AI 都行，零依赖）

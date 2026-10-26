@@ -178,7 +178,7 @@
 ### 四路速查（复制即用）
 
 - **Codex / Claude Code / Cursor**：先读 `AGENTS.md`，再读 `profile/` 全部 + `memory/` 最近一期，然后开始。
-- **Kimi / 豆包 / DeepSeek**：让他读 `https://raw.githubusercontent.com/<你的用户名>/ai-profile/main/START-HERE.md`
+- **Kimi / 豆包 / DeepSeek**：让他读 `https://raw.githubusercontent.com/everyday91199/ai-profile/main/START-HERE.md`
 - **复制粘贴保底（任何 AI 都行，最稳）**：打开 `START-HERE.md` → Ctrl+A 全选 → 复制 → 粘进对话框，说「这是我的档案，读完我们开始」。
 - **手机端**：手机浏览器打开同一个链接，长按全选复制，粘进 AI App。
 - **零依赖小白路径**：双击 `scripts\new-ai.cmd`，选 1。
