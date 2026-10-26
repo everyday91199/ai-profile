@@ -1,0 +1,16 @@
+## 想深入？去读这些
+
+| 想知道 | 读这个 |
+|---|---|
+| 我的完整身份、关注方向、知识用途 | `profile/identity.md` |
+| AI 该怎么跟我说话（含我的原话样本） | `profile/persona.md` |
+| **我怎么思考（最值钱的一份）** | `profile/thinking.md` |
+| 我的个人成长线（不是项目） | `profile/growth.md` |
+| 事业项目的状态 / 卡点 / 下一步 | `profile/projects.md` |
+| 哪些事已经定了、别再讨论要不要做 | `profile/decisions.md` |
+| 我的素材从哪来、哪些还没挖 | `profile/sources.md` |
+| 我的沟通偏好与禁忌 | `profile/preferences.md` |
+
+---
+
+**隐私提示**：本文件为公开层内容，不含他人信息、孩子信息、财务与账号数据。

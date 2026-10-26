@@ -1,0 +1,22 @@
+# build-start-here.ps1 用到的中文文案
+# 说明：ps1 本体保持纯 ASCII（这样它既是合法的 UTF-8 无 BOM，又能被 PowerShell 5.1 正确解析）
+# 改这里就能改提示语，不用动脚本。
+# 格式：KEY::值   （用双冒号分隔，值里的 {0} {1} {2} 是占位符）
+
+MSG_NO_SPEC::找不到抽取清单：{0}
+MSG_SKIP_NOFILE::[跳过] 文件不存在：{0}
+MSG_OK_SECTION::[OK] {0}  <- {1}（{2} 行）
+MSG_EMPTY_SECTION::[空] {0}  <- {1} 没匹配到内容，请检查清单里的正则
+MSG_MEM_TITLE::## 最近发生了什么
+MSG_MEM_FROM::（来自 `memory/{0}`）
+MSG_MEM_EMPTY::（本期暂无条目）
+MSG_MEM_OK::[OK] 最近记忆 <- memory/{0}
+MSG_DONE_TITLE::----------------------------------------
+MSG_DONE_FILE::  已生成：{0}
+MSG_DONE_WORDS::  字数（中文按字算 + 英文按词算）：{0}
+MSG_DONE_BYTES::  文件字节：{0}
+MSG_DONE_SECTIONS::  抽取成功：{0} 段，跳过：{1} 段
+MSG_WARN_LOW::  ⚠ 低于建议区间（1500-3000 字），内容可能不全
+MSG_WARN_HIGH::  ⚠ 超出建议区间（1500-3000 字），普通 AI 一次可能吃不下
+MSG_OK_RANGE::  ✅ 在建议区间内（1500-3000 字）
+MSG_DONE_END::----------------------------------------
