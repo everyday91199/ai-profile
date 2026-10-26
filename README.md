@@ -99,6 +99,22 @@ https://raw.githubusercontent.com/everyday91199/ai-profile/main/START-HERE.md
 4. 换 AI：换加载方式，档案不用改
 5. 删掉：GitHub 仓库 Settings → Delete this repository（**注意：提交历史里的东西删不掉，见下**）
 
+### 推送方式（已配置好，免令牌）
+
+本仓库已改用 **SSH 密钥推送**，密钥不过期，也不需要每次输令牌。
+
+- 私钥：`C:\Users\Administrator\.ssh\id_ed25519_ai_profile`（**绝不进仓库**）
+- 远程地址：`git@github.com:everyday91199/ai-profile.git`
+- 日常维护由 AI 助手小树完成：改完文件 → 重跑生成脚本 → 提交 → push
+- 想收回权限：GitHub → Settings → SSH and GPG keys → 删掉 `ai-profile push` 那一条即可
+
+```bash
+# 手动推送（如需自己操作）
+git add -A
+git commit -m "档案: 更新身份"
+git push
+```
+
 ### ⚠ git 历史即资产 —— 请务必遵守
 
 这个仓库的价值**一半在文件、一半在提交历史**。提交历史就是「认知变迁史」。
